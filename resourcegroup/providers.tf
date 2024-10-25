@@ -1,17 +1,17 @@
-terraform {
-  required_providers {
-    azurerm = {
-      source  = "hashicorp/azurerm"
-      version = "=4.1.0"
-    }
-  }
-}
+# terraform {
+#   required_providers {
+#     azurerm = {
+#       source  = "hashicorp/azurerm"
+#       version = "=4.1.0"
+#     }
+#   }
+# }
 
-provider "azurerm" {
-  resource_provider_registrations = "none"
-  subscription_id                 = "0f406152-f66c-48ab-8849-899264452993"
-  features {}
-}
+# provider "azurerm" {
+#   resource_provider_registrations = "none"
+#   subscription_id                 = "0f406152-f66c-48ab-8849-899264452993"
+#   features {}
+# }
 
 # terraform {
 #   backend "azurerm" {
