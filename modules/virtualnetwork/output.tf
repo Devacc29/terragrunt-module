@@ -13,3 +13,7 @@ output "snet_names" {
 output "snet_ids" {
   value = { for s in azurerm_subnet.sub : s.name => s.id }
 }
+
+output "snet_id" {
+  value = [for s in azurerm_subnet.sub : s.id ]
+}
