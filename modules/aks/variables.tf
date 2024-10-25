@@ -11,9 +11,9 @@ variable "aks_cluster" {
     kubernetes_version = string
     pod_subnet_id      = string
     load_balancer_sku  = string
-    dnp_vm_size = string
-    dnp_node_count = number
-    dnp_name = string
+    dnp_vm_size        = string
+    dnp_node_count     = number
+    dnp_name           = string
   })
 }
 

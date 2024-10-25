@@ -15,5 +15,5 @@ output "snet_ids" {
 }
 
 output "snet_id" {
-  value = [for s in azurerm_subnet.sub : s.id ]
+  value = [for s in azurerm_subnet.sub : s.id]
 }

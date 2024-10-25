@@ -12,7 +12,7 @@ resource "azurerm_kubernetes_cluster" "aks" {
   network_profile {
     network_plugin    = "azure" #azure, kubet, none
     network_policy    = "azure" #calico, azure etc.,,
-    load_balancer_sku = var.aks_cluster.load_balancer_sku 
+    load_balancer_sku = var.aks_cluster.load_balancer_sku
   }
 
   default_node_pool {
