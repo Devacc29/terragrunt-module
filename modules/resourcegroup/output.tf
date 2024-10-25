@@ -3,5 +3,5 @@ output "resource_group_ids" {
 }
 
 output "rg_names" {
-  value = [for r in azurerm_subnet.rg : r.name]
+  value = [for r in azurerm_resource_group.rg : r.name]
 }
